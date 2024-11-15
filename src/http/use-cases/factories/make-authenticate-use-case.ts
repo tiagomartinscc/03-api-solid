@@ -1,5 +1,5 @@
 import { PrismaUsersRepository }
-  from 'src/http/repositories/prisma/prisma-users-repository'
+  from 'src/repositories/prisma/prisma-users-repository'
 import { AuthenticateUseCase } from '../authenticate'
 
 export function makeAuthenticateUseCase() {
